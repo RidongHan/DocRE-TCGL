@@ -1,0 +1,26 @@
+python train_dwie.py \
+--data_dir ./dataset/dwie \
+--prepro_dir ./processed_data/dwie \
+--transformer_type roberta \
+--model_name_or_path roberta-large \
+--save_path ./checkpoint/dwie \
+--train_batch_size 4 \
+--test_batch_size 4 \
+--gradient_accumulation_steps 1 \
+--num_labels 3 \
+--learning_rate 5e-5 \
+--gnn_lr 1e-4 \
+--warmup_ratio 0.06 \
+--num_train_epochs 30.0 \
+--seed 66 \
+--num_class 66 \
+--model_prefix roberta-TCGL \
+--graph_type gat \
+--use_type \
+--topk_tcl \
+--max_num_match_rels 14 \
+--alpha_TCG 4.0 \
+--alpha_TCL 2.0 \
+--TCG \
+--TCL \
+--load_path roberta-TCGL.pt
