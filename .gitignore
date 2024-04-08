@@ -4,3 +4,4 @@ checkpoint/
 outlog/
 processed_data/
 plms/
+.DS_Store
