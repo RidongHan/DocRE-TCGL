@@ -1,4 +1,4 @@
-The Pytorch code of the paper "[Document-level Relation Extraction with Entity Type Constraints](./DocRE-TCGL.pdf)", under review in ``Applied Soft Computing`` journal.
+The Pytorch code of the paper "[Document-level Relation Extraction with Entity Type Constraints](./DocRE-TCGL.pdf)".
 
 
 ## requirements
